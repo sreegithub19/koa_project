@@ -3,11 +3,15 @@ Versions used:
 Steps to run:
 
 - npm install
+- npm i --save-dev @types/node
+- Convert the .js to .ts file
 - npm start
 
 Deploy:
 
 - git add . && git commit -m "c" && git push origin main
+  (or)
+- git add . && git commit -m "c" && git push origin typescript
 - now login
 - now
 - vercel --prod ( to override later)
@@ -15,8 +19,6 @@ Deploy:
 All in one command:
 
 - git add . && git commit -m "c" && git push origin main && now && vercel --prod
-
-
 
 Demo:
 
