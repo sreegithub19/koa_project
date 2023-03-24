@@ -12,6 +12,10 @@ Deploy:
 - git add . && git commit -m "c" && git push origin main
   (or)
 - git add . && git commit -m "c" && git push origin typescript
+- git rm --cached file_name
+  (
+  .gitignore only ignores files that are not part of the repository yet. If you already git added some files, their changes will still be tracked. To remove those files from your repository (but not from your file system) use git rm --cached on them.
+  )
 - now login
 - now
 - vercel --prod ( to override later)
