@@ -22,7 +22,7 @@ Deploy:
 
 All in one command:
 
-- git add . && git commit -m "c" && git push origin main && now && vercel --prod
+- npm install && npm run build && git add . && git commit -m "c" && git push origin main && now && vercel --prod
 
 Demo:
 
